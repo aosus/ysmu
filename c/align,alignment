@@ -1,0 +1,46 @@
+الاسم: مُحاذاة (ج: محاذيات).
+الفعل: حاذَى يُحاذِي محاذاةً فهو مُحاذِي، والأمر: حاذِ، والمفعول: حُوذِيَ يُحاذَى فهو مُحاذَى.
+
+المحاذاة جعل الأشياء مستوية في الجانب. وفي النصوص تسمى أحيانا ”justification“ كذلك، فنقول:
+
+[['– ']]
+++((
+
+-- إن فقرات العربية «محاذاة إلى اليمين» (”right-aligned“ أو ”right-justified“)
+
+-- وفقرات الإنجليزية «محاذاة إلى اليسار» (”left-aligned“ أو ”left-justified“).
+
+-- ويكثر في الكتب «تسوية السطور» (”full justification“ أو ”justification“ وحدها)،
+
+-- والعناوين كثيرا ما تكون «متوسطة» (”centered“).
+
+))++
+
+وتستعمل بهذا المعنى في برامج الرسوميات، فـ«المحاذاة إلى اليمين» مثلا تعني جعل الحد الأيمن للكائنات المختارة على استواء واحد. وفيها وفي بيئات سطح المكتب «المحاذاة إلى الشبكة» (”align to grid“ أو ”snap to grid“) لجعل الأشياء تلتصق بحواف شبكة (مرئية أو غير مرئية) لتنظيم مواضعها.
+
+وتستعمل في البرمجة والحواسيب للدلالة على ما يسمى «محاذاة الذاكرة» أو «محاذاة البيانات»، أي تخزين البيانات في الذاكرة في موضع عنوانه عدد صحيح من «كلمات المعالج» (word).
+
+ومثل ذلك، «محاذاة أقسام القرص» يعني بَدء القسم عند حد من حدود القرص.
+
+!!!!
+https://en.wikipedia.org/wiki/Typographic_alignment محاذاة النصوص في ويكيبديا الإنجليزية
+https://en.wikipedia.org/wiki/Partition_alignment محاذاة الأقسام في ويكيبديا الإنجليزية
+https://en.wikipedia.org/wiki/Data_structure_alignment محاذاة قواعد البيانات في ويكيبديا الإنجليزية
+https://stackoverflow.com/questions/381244/purpose-of-memory-alignment ما الغرض من محاذاة الذاكرة - في استاك‌أوڤرفلو بالإنجليزية
+https://www.arabeyes.org/techdict_talk:Align نقاش عربآيز ثم اتفاقهم على «محاذاة»
+
+####
+align
+aligned
+alignment
+right-aligned
+left-aligned
+centered
+justify
+justified
+justification
+right-justified
+left-justified
+full justification
+snap to grid
+align to grid
