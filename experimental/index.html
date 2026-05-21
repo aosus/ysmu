@@ -50,7 +50,6 @@
   <a href="#artificial" title="‫صفة: مَصْنُوع أو مُصْطَنَع.‬" data-spell="">artificial</a>
   <a href="#artificial_intelligence" title="‫اسم: ذكاء مصطَنع.‬" data-spell="">artificial intelligence (AI)</a>
   <a href="#beta" title="‫⸨في إصدارات البرمجيات⸩  الصفة: تجريبي.  الاسم: إصدارة تجريبية، نسخة تجريبية، إصدار تجريبي.‬" data-spell="">beta</a>
-  <a href="#category" title="‫اسم: فئة (ج: فئات).‬" data-spell="">category</a>
   <a href="#chat" title="‫الاسم: مُحَادَثَة (ج: مُحَادَثَات).  الفعل المتعدي: حادَث يُحادِث محادَثَة، والأمر: حادِث [فلانًا].  فعل المشاركة: تَحادَث يَتحادَث تَحادُثًا، والأمر: تَحادَث [مع فلانٍٍ].‬" data-spell="">chat</a>
   <a href="#contribute" title="‫الاسم: مساهمة (ج: مساهمات).  الفعل: سَاهَم يُساهِم مُساهَمةً فهو مُساهِم، والأمر: ساهِم، والمفعول: سوهِم يُساهَم فهو مُساهَم.‬" data-spell="">contribute, contribution</a>
   <a href="#convenient" title="‫الصفة: مُريح، مُريحة.  الاسم: وسيلة راحة (ج: وسائل راحة).‬" data-spell="">convenient, convenience</a>
@@ -59,6 +58,7 @@
   <a href="#download" title="‫الاسم: تنزيل (ج: تنزيلات).  الفعل: نَزَّل يُنَزِّل تنزيلا، فهو مُنَزِّل، والأمر: نَزِّل، والمفعول: نُزِّل يُنَزَّل فهو مُنَزَّل.‬" data-spell="">download</a>
   <a href="#immutable" title="‫الصفة: ثَبِيت، ثَبِيتَة.  الاسم: ثَبِيتِيَّة.‬" data-spell="">immutable, immutability</a>
   <a href="#load" title="‫الاسم: حِمْل (ج: أحمال).  الفعل: حَمَّل يُحَمِّل تحميلًا، فهو مُحَمِّل، والأمر: حَمِّل، والمفعول: حُمِّل يُحَمَّل فهو مُحَمَّل.‬" data-spell="">load</a>
+  <a href="#location" title="‫⸨للملفات⸩ اسم: مَكان (ج: أمْكِنة).  ⸨للخرائط⸩ اسم: مَوضِع (ج: مَواضِع).  ⸨للشابكة (URI)⸩ اسم: مَوقِع (ج: مَواقِع).‬" data-spell="geolocation position url uri path">location</a>
   <a href="#mount" title="‫فعل: ضَمَّ يَضُمُّ ضَمّا، فهو ضامّ، والأمر: ضُمّ، والمفعول: ضُمّ يُضَمّ فهو مضموم.‬" data-spell="">mount</a>
 <h3>O P Q R S T U V W X Y Z</h3>
   <a href="#one-time" title="‫صفة: استخدام واحد (مضاف إليه).‬" data-spell="">one-time</a>
@@ -120,10 +120,6 @@
   <li><a dir="ltr" href="#alpha">alpha</a></li>
   <li><a dir="ltr" href="../#stable">stable</a></li>
 </ul>
-</article>
-<hr class="rm"><article><span class="anch" id="category"><h2><a dir="ltr" href="#category">category</a></h2></span>
-<p class="main">اسم: فئة (ج: فئات).</p>
-<hr class="rm">
 </article>
 <hr class="rm"><article><span class="anch" id="chat"><h2><a dir="ltr" href="#chat">chat</a></h2></span>
 <p class="main">الاسم: مُحَادَثَة (ج: مُحَادَثَات).<br>الفعل المتعدي: حادَث يُحادِث محادَثَة، والأمر: حادِث [فلانًا].<br>فعل المشاركة: تَحادَث يَتحادَث تَحادُثًا، والأمر: تَحادَث [مع فلانٍٍ].</p>
@@ -217,6 +213,10 @@ Nitrux is an <a rel="noreferrer noopener" href="https://blog.verbum.org/2020/08/
   <li><a dir="ltr" href="#download">download</a></li>
   <li><a dir="ltr" href="#upload">upload</a></li>
 </ul>
+</article>
+<hr class="rm"><article><span class="anch" id="location"><h2><a dir="ltr" href="#location">location</a></h2></span>
+<p class="main">⸨للملفات⸩ اسم: مَكان (ج: أمْكِنة).<br>⸨للخرائط⸩ اسم: مَوضِع (ج: مَواضِع).<br>⸨للشابكة (URI)⸩ اسم: مَوقِع (ج: مَواقِع).</p>
+<hr class="rm">
 </article>
 <hr class="rm"><article><span class="anch" id="mount"><h2><a dir="ltr" href="#mount">mount</a></h2></span>
 <p class="main">فعل: ضَمَّ يَضُمُّ ضَمّا، فهو ضامّ، والأمر: ضُمّ، والمفعول: ضُمّ يُضَمّ فهو مضموم.</p>
@@ -352,13 +352,13 @@ Nitrux is an <a rel="noreferrer noopener" href="https://blog.verbum.org/2020/08/
     '#click': '../?#click',
     '#clone': '../?#clone',
     '#color_scheme': '../?#color_scheme',
-    '#column': '../candidate/?#column',
+    '#column': '../?#column',
     '#command': '../?#command',
     '#comment': '../?#comment',
     '#commit': '../?#commit',
     '#compatible': '../candidate/?#compatible',
-    '#compress': '../candidate/?#compress',
-    '#compression': '../candidate/?#compress',
+    '#compress': '../?#compress',
+    '#compression': '../?#compress',
     '#computer': '../?#computer',
     '#connect': '../candidate/?#connect',
     '#connection': '../candidate/?#connect',
@@ -381,8 +381,8 @@ Nitrux is an <a rel="noreferrer noopener" href="https://blog.verbum.org/2020/08/
     '#encrypt': '../?#encrypt',
     '#encryption': '../?#encrypt',
     '#even': '../?#even',
-    '#extract': '../candidate/?#extract',
-    '#extraction': '../candidate/?#extract',
+    '#extract': '../?#extract',
+    '#extraction': '../?#extract',
     '#feature': '../?#feature',
     '#federated': '../?#federated',
     '#federation': '../?#federated',
@@ -391,8 +391,8 @@ Nitrux is an <a rel="noreferrer noopener" href="https://blog.verbum.org/2020/08/
     '#firewall': '../?#firewall',
     '#folder': '../?#folder',
     '#font': '../candidate/?#font',
-    '#forum': '../candidate/?#forum',
-    '#fora': '../candidate/?#forum',
+    '#forum': '../?#forum',
+    '#fora': '../?#forum',
     '#function': '../?#function',
     '#gesture': '../candidate/?#gesture',
     '#graphics_processing_unit': '../candidate/?#graphics_processing_unit',
@@ -418,7 +418,6 @@ Nitrux is an <a rel="noreferrer noopener" href="https://blog.verbum.org/2020/08/
     '#localize': '../unstaged/?#localize',
     '#localization': '../unstaged/?#localize',
     '#l10n': '../unstaged/?#localize',
-    '#location': '../candidate/?#location',
     '#logo': '../?#logo',
     '#machine': '../candidate/?#machine',
     '#machine_learning': '../?#machine_learning',
@@ -433,7 +432,7 @@ Nitrux is an <a rel="noreferrer noopener" href="https://blog.verbum.org/2020/08/
     '#mouse': '../?#mouse',
     '#multi-factor_authentication': '../?#multi-factor_authentication',
     '#mfa': '../?#multi-factor_authentication',
-    '#native': '../candidate/?#native',
+    '#native': '../?#native',
     '#negative': '../?#negative',
     '#network': '../?#network',
     '#octet': '../?#octet',
@@ -461,7 +460,7 @@ Nitrux is an <a rel="noreferrer noopener" href="https://blog.verbum.org/2020/08/
     '#replace': '../candidate/?#replace',
     '#repository': '../?#repository',
     '#resource': '../candidate/?#resource',
-    '#row': '../candidate/?#row',
+    '#row': '../?#row',
     '#safety': '../?#safety',
     '#sandbox': '../?#sandbox',
     '#save': '../candidate/?#save',
