@@ -11,7 +11,9 @@ binary search	اسم: بحث تنصيفي.	@	binary_search
 bit	اسم: بِت (ج: بتات؛ وهي بلا اختصار لمنع خلطها مع «بايت»).	byte	bit	
 blur	الاسم: تضبيب.  الفعل: ضَبَّب يُضَبِّب تضبيبًا، والأمر: ضَبِّب، والمفعول: ضُبِّب يُضَبَّب فهو مُضَبَّب.	@	blur	
 browse, browser	اسم الآلة: مُتَصَفِّح (ج: متصفحات).  الفعل: تصَفَّح يَتَصَفَّح تَصَفُّحًا، فهو مُتَصَفِّح، والأمر: تَصَفَّح، والمفعول: تُصُفِّح يُتَصَفَّح، فهو مُتَصَفَّح.		browse browser	
+button	اسم: زِرّ (ج: أزرار).	key	button	
 byte	اسم: أُثمون (ج: أثامين؛ اختصارها: أث).	@ bit octet	byte	
+central processing unit (CPU)	اسم: مُعالِج (ج: معالجات)، معالج مركزي (ج: معالجات مركزية).	graphics_processing_unit	central_processing_unit CPU	
 check in	{{في أنظمة إدارة النسخ}}  الاسم: إيداع (ج: إيداعات).  الفعل: أَوْدَع يُودِع إيداعًا فهو مُودِع، والأمر أَوْدِع، والمفعول: أُودِع يُودَع فهو مُودَع.	commit	check_in	
 chip	اسم: رُقاقة (ج: رقاقات).		chip	
 click	الاسم: نَقْرة (ج: نقرات).  الفعل: نَقَر يَنقِر نَقْرًا. والأمر: انقِر.	press	click	
@@ -41,10 +43,14 @@ firewall	اسم: جِدار حماية (ج: جُدران حماية).		firewall
 folder	اسم: مُجَلَّد (ج: مجلدات).	directory file	folder	
 forum, fora	اسم: منتدى (ج: منتديات).		forum fora	
 function	اسم: دالّة (ج: دوال).	procedure	function	
+graphics processing unit (GPU)	اسم: مُعالِج رسوميات (ج: معالجات رسوميات).	central_processing_unit	graphics_processing_unit GPU	
 hardware	اسم: عِتاد.	software	hardware	
 high contrast	الصفة: عالي التبايُن، عالية التبايُن.  الاسم: تبايُن عالٍ، التبايُن العالي.	@ contrast	high_contrast	
 instance	اسم: نُسْخَة (ج: نُسَخ).	@ copy	instance	
 integer	الاسم: عدد صحيح (ج: أعداد صحيحة).  الصفة: صحيح، صحيحة.		integer	
+key	اسم: مِفتاح (ج: مفاتيح).	button	key	
+keyboard	اسم: لوحة مفاتيح (ج: لوحات مفاتيح).		keyboard	
+keyword	اسم: كلمة مفتاحية (ج: كلمات مفتاحية).		keyword	
 laptop	اسم: حاسوب محمول (ج: حواسيب محمولة).	computer	laptop	
 license	رُخْصة (ج: رُخَص).		license	
 logo	اسم: شِعار (ج: شعارات).	badge motto	logo	
