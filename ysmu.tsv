@@ -50,7 +50,6 @@ instance	اسم: نُسْخَة (ج: نُسَخ).	@ copy	instance
 integer	الاسم: عدد صحيح (ج: أعداد صحيحة).  الصفة: صحيح، صحيحة.		integer	
 key	اسم: مِفتاح (ج: مفاتيح).	button	key	
 keyboard	اسم: لوحة مفاتيح (ج: لوحات مفاتيح).		keyboard	
-keyword	اسم: كلمة مفتاحية (ج: كلمات مفتاحية).		keyword	
 laptop	اسم: حاسوب محمول (ج: حواسيب محمولة).	computer	laptop	
 license	رُخْصة (ج: رُخَص).		license	
 logo	اسم: شِعار (ج: شعارات).	badge motto	logo	
