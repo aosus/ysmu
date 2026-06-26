@@ -25,6 +25,7 @@ comment	الاسم: تعليق (ج: تعليقات).  الفعل: عَلَّق 
 commit	{{في أنظمة إدارة النسخ}}  الاسم: إيداع (ج: إيداعات).  الفعل: أَوْدَع يُودِع إيداعًا فهو مُودِع، والأمر أَوْدِع، والمفعول: أُودِع يُودَع فهو مُودَع.	@ repository	commit	committer committed committing
 compress, compression	{{تقليل حجم البيانات}} فعل: ضَغَط يَضْغَط ضَغْطًا فهو ضاغِط، والأمر: اضغَط، والمفعول: ضُغِط يُضْغَط فهو مَضغوط.	extract	compress compression	
 computer	اسم: حاسوب (ج: حواسيب)؛ أو حاسب [آلي] (ج: حاسبات [آلية]).	@ laptop server	computer	
+conference	اسم: مؤتمَر (ج: مؤتمرات).	meet	conference	
 constant	اسم وصفة: ثابِت (ج: ثوابت).	variable immutable	constant	
 contrast	اسم: تبايُن.	high_contrast	contrast	
 copy	الاسم والصفة: نُسْخة (ج: نُسَخ).  الفعل: نسخ ينسخ نَسْخًا.	clone instance	copy	
@@ -48,12 +49,15 @@ hardware	اسم: عِتاد.	software	hardware
 high contrast	الصفة: عالي التبايُن، عالية التبايُن.  الاسم: تبايُن عالٍ، التبايُن العالي.	@ contrast	high_contrast	
 instance	اسم: نُسْخَة (ج: نُسَخ).	@ copy	instance	
 integer	الاسم: عدد صحيح (ج: أعداد صحيحة).  الصفة: صحيح، صحيحة.		integer	
+interview	الاسم: مُقابَلة (ج: مقابلات).  الفعل: قابَل يُقابِل مقابلةً فهو مُقابِل، والأمر: قابِل، والمفعول: قُوبِل يُقابَل فهو مُقابَل.	meet	interview	
 key	اسم: مِفتاح (ج: مفاتيح).	button	key	
 keyboard	اسم: لوحة مفاتيح (ج: لوحات مفاتيح).		keyboard	
 laptop	اسم: حاسوب محمول (ج: حواسيب محمولة).	computer	laptop	
+layer	اسم: طَبَقة (ج: طبقات).	alpha	layer	
 license	رُخْصة (ج: رُخَص).		license	
 logo	اسم: شِعار (ج: شعارات).	badge motto	logo	
 machine learning	اسم: تعلُّم الآلة.	deep_learning artificial_intelligence accuracy precision	machine_learning	
+meet, meeting	{{في الأعمال}}  الاسم: اجتماع (ج: اجتماعات).  الفعل: اجتَمَع [مع قومٍ] يجتَمِع اجتماعًا فهو مُجتمِع، والأمر: اجتمِع.  {{في التواصل}}  الاسم: لِقاء (ج: لقاءات).  الفعل: التقى [قومًا] يلتقي التقاءً فهو ملتقٍ، والأمر: التقِ.	interview conference	meet meeting	
 memory	اسم: ذاكرة (ج: ذواكر).		memory	memories
 mode	اسم: وَضْع (ج: أوضاع).	@	mode	
 moderator	الاسم: مُشرِف (ج: مُشرِفون).  الفعل: أشرَف يُشرف إشرافًا.	administrator	moderator	moderate moderating moderation
@@ -82,6 +86,7 @@ repository	اسم: مُسْتَوْدَع (ج: مُسْتَوْدَعَات).	@
 row	اسم: صَفّ (ج: صُفوف).	column	row	
 safety	سلامة.		safety	
 sandbox	الاسم: مَعزِل (ج: مَعَازِل).  الفعل: عَزَل يَعزِل عَزْلًا، والأمر: اعزِل، والمفعول: عُزِل يُعزَل فهو معزول.	@	sandbox	
+search	الاسم: بحث.  الفعل: بَحَث يَبحَث بَحْثًا فهو باحث، والأمر: ابحَث، والمفعول: بُحِثَ عنه يُبحَث فهو مبحوث عنه.		search	
 software	اسم: برمجيات (تستعمل بالجمع غالبا. وعند الضرورة مفردها: بَرْمَجِيّة).	hardware	software	
 stable	{{في إصدارات البرمجيات}}  الصفة: مستقِّر.  الاسم: إصدارة مستقرة، نسخة مستقرة، إصدار مستقر.	beta alpha	stable	
 system administrator (sysadmin)	اسم: مدير النظام (ج: مديرو النظام).	administrator	system_administrator sysadmin	
@@ -89,4 +94,6 @@ telephone	اسم: هاتف (ج: هواتف).		telephone
 terminal	اسم: طرَفِيّة (ج: طرفيات).	@	terminal	
 theme	اسم: نَسَق (ج: أنساق).	@ color_scheme	theme	theme_color theme_font theme_pack page_theme
 two-factor authentication (2FA)	اسم: استيثاق ثنائي.	authenticate multi-factor_authentication	two-factor_authentication 2FA	
+upgrade	الاسم: ترقية (ج: ترقيات).  الفعل: رَقّى يُرَقّي ترقيةً فهو مُرَقِّي، والأمر: رَقِّ، والمفعول: رُقِّي يُرَقَى فهو مُرَقَّى.	update	upgrade	
 variable	اسم وصفة: مُتَغَيِّر (ج: متغيرات).	constant immutable	variable	
+window	اسم: نافذة (ج: نوافذ).		window	
