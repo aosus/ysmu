@@ -83,6 +83,7 @@ my $list_open = qr,<p> (?: \[\[ ([^";]*?) \]\] <br>\n)? (?:[#]{2}|[+]{2}) \(\( <
 sub transform_para(_) {
   my $r =
     ('<p>'.( $_[0] =~ s|<br>\n<br>\n|</p>\n\n<p>|gr).'</p>')
+      =~ s|<br>\n</p>\Z|</p>|r
       =~ s|<p>\h*<br>\n|<p>|gr
       =~ s|<p>\h*</p>||gr
       =~ s|<p>----</p>|<hr>|gr
