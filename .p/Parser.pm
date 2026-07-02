@@ -9,9 +9,11 @@ our @EXPORT_OK = qw[
 ];
 
 my %links_short = (
-  لسان => sub { "https://wiki.dorar-aliraq.net/lisan-alarab/$_[0]" },
-  مصر١٢ => sub { "https://archive.org/details/CAI2012AREN/page/n$_[0]/mode/1up" },
-  تنسيق => sub { "https://archive.org/details/BUR2000ENFRAR/page/$_[0]/mode/1up" },
+  'لسان' => sub { "https://wiki.dorar-aliraq.net/lisan-alarab/$_[0]" },
+  'سوري' => sub { "https://scs.org.sy/scs/qamous/search?q=scs/qamous/showterm/$_[0]" },
+  '٠٠سوري' => sub { "https://archive.org/details/SOI2000ENAR/page/$_[0]/mode/1up" },
+  '١٢مصري' => sub { "https://archive.org/details/CAI2012AREN/page/$_[0]/mode/1up" },
+  'تنسيق' => sub { "https://archive.org/details/BUR2000ENFRAR/page/$_[0]/mode/1up" },
 );
 
 my $shortlink = join "|", sort keys %links_short;
