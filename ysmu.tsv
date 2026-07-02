@@ -7,7 +7,7 @@ attach, attachment	الاسم: مُرْفَق (ج: مرفقات).  الفعل: 
 attribute	اسم: سِمَة (ج: سمات).	theme feature	attribute	
 authenticate, authentication	الاسم: اسْتِيثَاق (ج: اسْتِيثَاقَات).  الفعل: استَوثَق يَستَوثِق استيثاقًا، والأمر: استَوثِق، والمفعول: اُستُوثِق يُستُوثَق فهو مُستَوثَق.	@ two-factor_authentication multi-factor_authentication	authenticate authentication	
 badge	اسم: شارة (ج: شارات).	logo motto	badge	
-binary search	اسم: بحث تنصيفي.	@	binary_search	
+binary search	اسم: بحث تنصيفي.	@	binary_search	half-interval_search logarithmic_search binary_chop bisection_method interval_halving_method dichotomy_method
 bit	اسم: بِت (ج: بتات؛ وهي بلا اختصار لمنع خلطها مع «بايت»).	byte	bit	
 blur	الاسم: تضبيب.  الفعل: ضَبَّب يُضَبِّب تضبيبًا، والأمر: ضَبِّب، والمفعول: ضُبِّب يُضَبَّب فهو مُضَبَّب.	@	blur	
 browse, browser	اسم الآلة: مُتَصَفِّح (ج: متصفحات).  الفعل: تصَفَّح يَتَصَفَّح تَصَفُّحًا، فهو مُتَصَفِّح، والأمر: تَصَفَّح، والمفعول: تُصُفِّح يُتَصَفَّح، فهو مُتَصَفَّح.		browse browser	
@@ -62,7 +62,7 @@ memory	اسم: ذاكرة (ج: ذواكر).		memory	memories
 mode	اسم: وَضْع (ج: أوضاع).	@	mode	
 moderator	الاسم: مُشرِف (ج: مُشرِفون).  الفعل: أشرَف يُشرف إشرافًا.	administrator	moderator	moderate moderating moderation
 motto	اسم: هِتاف (ج: هتافات).	logo badge	motto	
-mouse	فأرة (ج: فأرات).		mouse	
+mouse	فأرة (ج: فأرات).	keyboard	mouse	
 multi-factor authentication (MFA)	اسم: استيثاق متعدد العوامل.	authenticate two-factor_authentication	multi-factor_authentication MFA	
 native	صفة: أصيل، أصيلة.	@	native	
 negative	صفة: سالب، سالبة.	positive	negative	

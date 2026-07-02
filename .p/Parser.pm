@@ -8,6 +8,15 @@ our @EXPORT_OK = qw[
   parse_entry
 ];
 
+my %links_short = (
+  لسان => sub { "https://wiki.dorar-aliraq.net/lisan-alarab/$_[0]" },
+  مصر١٢ => sub { "https://archive.org/details/CAI2012AREN/page/n$_[0]/mode/1up" },
+  تنسيق => sub { "https://archive.org/details/BUR2000ENFRAR/page/$_[0]/mode/1up" },
+);
+
+my $shortlink = join "|", sort keys %links_short;
+$shortlink = qr/$shortlink/;
+
 sub openfile { my ($mode, $fpath) = @_;
   state $modes = {qw[
     r reading  w writing   a appending
@@ -29,8 +38,9 @@ sub parse_line(_;$) {
     =~ s|\*\*(.*?)\*\*|<strong>$1</strong>|grx
     =~ s|\x02\x02 ([^:>]+) :: ([^:>]+) \x03\x03|<a href="#$2">$1</a>|grx
     =~ s|\x02\x02          :: (.*?)    \x03\x03|<a dir="ltr" href="#$1"><<title_of:$1>></a>|grx
-    =~ s,\x02\x02 ([^|\x03]*) [|]{2} ([^|\x03]*) \x03\x03,<a rel="noreferrer noopener" href="$2">$1</a>,grx
+    =~ s,\x02\x02 ([^|\x03]*) [|]{2} ([^|\x03]*) \x03\x03,<a rel="noreferrer noopener" href="$2">$1</a>,grx  # todo: doublequote in a href?
     =~ s|\x02\x02 (.*?) \x03\x03|<a dir="ltr" rel="noreferrer noopener" href="$1">$1</a>|grx
+    =~ s|(<a[^<>]*href=")($shortlink):([^"]+)|"$1".$links_short{$2}->($3)|gre
     =~ s|\{\{##(.*?)##\}\}|<span dir="ltr" style="font-variant:small-caps">$1</span>|gr
     =~ s|\{\{(.*?)\}\}|<span dir="ltr">$1</span>|grx
     =~ s|``(.*?)``|<code dir="ltr">$1</code>|grx
