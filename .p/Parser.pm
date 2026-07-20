@@ -14,6 +14,7 @@ my %links_short = (
   '٠٠سوري' => sub { "https://archive.org/details/SOI2000ENAR/page/$_[0]/mode/1up" },
   '١٢مصري' => sub { "https://archive.org/details/CAI2012AREN/page/$_[0]/mode/1up" },
   'تنسيق' => sub { "https://archive.org/details/BUR2000ENFRAR/page/$_[0]/mode/1up" },
+  'عربآيز' => sub { "https://www.arabeyes.org/techdict:$_[0]" },
 );
 
 my $shortlink = join "|", sort keys %links_short;

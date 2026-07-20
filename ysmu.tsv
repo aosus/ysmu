@@ -6,6 +6,7 @@ application programming interface (API)	اسم: واجهة برمجية، واج
 attach, attachment	الاسم: مُرْفَق (ج: مرفقات).  الفعل: أرْفَق يُرْفِق إرفاقًا فهو مُرْفِق، والأمر: أَرْفِق، والمفعول: أُرْفِق يُرْفَق فهو مُرْفَق.		attach attachment	
 attribute	اسم: سِمَة (ج: سمات).	theme feature	attribute	
 authenticate, authentication	الاسم: اسْتِيثَاق (ج: اسْتِيثَاقَات).  الفعل: استَوثَق يَستَوثِق استيثاقًا، والأمر: استَوثِق، والمفعول: اُستُوثِق يُستُوثَق فهو مُستَوثَق.	@ two-factor_authentication multi-factor_authentication	authenticate authentication	
+backup	صفة: احتياطيّ، احتياطيّة.  اسم: نسخة احتياطية (ج: نُسَخ احتياطية).  فعل: نَسَخ احتياطيًّا ينسخ نسخًا فهو ناسِخٌ احتياطيًّا، والأمر: انسخ احتياطيًّا، والمفعول: نُسخ احتياطيًّا يُنسَخ فهو منسوخٌ احتياطيًّا.	@	backup	back_up back-up backed_up backing_up
 badge	اسم: شارة (ج: شارات).	logo motto	badge	
 binary search	اسم: بحث تنصيفي.	@	binary_search	half-interval_search logarithmic_search binary_chop bisection_method interval_halving_method dichotomy_method
 bit	اسم: بِت (ج: بتات؛ وهي بلا اختصار لمنع خلطها مع «بايت»).	byte	bit	
@@ -73,6 +74,7 @@ odd	صفة للأعداد: فَرديّ، فردية.	even	odd
 operating system (OS)	اسم: نظام تشغيل (ج: أنظمة تشغيل).		operating_system OS	
 paste	فعل: ألصَق يُلصِق إلصاقًا.	@	paste	
 path	اسم: مسار (ج: مسارات).		path	
+permission	اسم: إذْن (ج: أُذون).		permission	
 positive	صفة: مُوجِب، موجِبة.	@ negative	positive	
 precision	اسم: دِقّة.	accuracy	precision	
 press	فعل: ضَغَط يَضْغَط ضَغْطًا فهو ضاغط، والأمر: اضغَط، والمفعول: ضَغِط يُضْغَط فهو مَضغوط.		press	
