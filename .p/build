@@ -233,12 +233,23 @@ sub toc_links {  # takes array of [ $id, "#$id" ]; returns a string '<section cl
         map {
           /href="[^#]*#(.)/;
           my $c = $1;
-          $c = $c =~ /[0-9a-c]/ ? '0–9 A B C'
-             : $c =~ /[d-n]/
-               ? 'D E F G H I J K L M N'
-               : 'O P Q R S T U V W X Y Z';
+          if (@_ > 100) {
+            $c = $c =~ /[0-9a-b]/ ? '0–9 A B'
+               : $c eq 'c'        ? 'C'
+               : $c =~ /[d-h]/    ? 'D E F G H'
+               : $c =~ /[i-n]/    ? 'I J K L M N'
+               : $c =~ /[opq]/    ? 'O P Q'
+               : $c =~ /[rst]/    ? 'R S T'
+                 : 'U V W X Y Z';
+          }
+          elsif (@_ > 17) {
+            $c = $c =~ /[0-9a-c]/ ? '0–9 A B C'
+               : $c =~ /[d-n]/    ? 'D E F G H I J K L M N'
+                 : 'O P Q R S T U V W X Y Z';
+          }
+          else { $c = "" }
           ++$ltrs{$c};
-          if (@_ > 17 && $ltrs{$c} == 1) { $_ = "<h3>$c</h3>\n$_" }
+          if ($c && $ltrs{$c} == 1) { $_ = "<h3>$c</h3>\n$_" }
           $_
         }
         map {
