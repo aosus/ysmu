@@ -24,7 +24,7 @@ GUI object position: إحداثيّا المكوِّن الرسومي (س، ص =
 
 ****
 
-positioning: مَوضعة (وضع الشيء في موضع معين - على وزن «مسكنة»)؛ وأنواعها في CSS (<<شرح||https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning>>، <<توثيق||https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position>>) هي:
+positioning: مَوضَعة (وضع الشيء في موضع معين - على وزن «مسكنة»، وهو مصدر مثلها)؛ وأنواعها في CSS (<<شرح||https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning>>، <<توثيق||https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position>>) هي:
 
 [['– ']]
 ++((
@@ -42,7 +42,7 @@ relative positioning: موضعة نسبية:
 ****
 
 absolute positioning: موضعة مطلقة:
-يُرفع المكوِّن من ترتيب المكوِّنات في الصفحة ويوضع فوقها في موضع محدد بالنسبة إلى أول مكوِّن حاوي «مُمَوْضَع».
+يُرفع المكوِّن من ترتيب المكوِّنات في الصفحة ويوضع فوقها في موضع محدد بالنسبة إلى أول مكوِّن حاوي ذي موضعة غير الموضعة الساكنة.
 
 ****
 
